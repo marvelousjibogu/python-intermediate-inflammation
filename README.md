@@ -29,3 +29,17 @@ The following optional packages are required to run Inflam's unit tests:
   Inflam's unit tests are written using pytest.
 - [pytest-cov](https://pypi.org/project/pytest-cov/) -
   Adds test coverage stats to unit testing.
+
+## Installation
+
+To install the `inflam` Python package,
+clone the repository and `pip install` the requirements file
+into your Python environment.
+
+```bash
+git clone https://github.com/marvelousjibogu/python-intermediate-inflammation
+cd python-intermediate-inflammation
+python -m venv .venv
+source activate .venv/bin/activate
+pip install -r requirements.txt
+```
