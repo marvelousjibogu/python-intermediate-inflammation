@@ -2,7 +2,7 @@
 
 from matplotlib import pyplot as plt
 import numpy as np
-
+import inflammation
 
 def visualize(data_dict):
     """Display plots of basic statistical properties of the inflammation data.
@@ -23,3 +23,10 @@ def visualize(data_dict):
     fig.tight_layout()
 
     plt.show()
+
+def plot_std_deviation():
+    graph_data = {
+       'standard deviation by day': inflammation.compute_data.analyse_data(),
+    }
+    visualize(graph_data)
+

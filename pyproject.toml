@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-intermediate-inflammation"
+version = "0.1.0"
+description = "Patient inflammation data package"
+authors = ["Marvelous Jibogu <marvelous.jibogu@ukaea.uk>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.9.0"
+numpy = "^2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
